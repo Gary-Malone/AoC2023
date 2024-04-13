@@ -52,6 +52,10 @@ public class CubeGame {
 		return this.maximumGreen <= allowedGreen && this.maximumRed <= allowedRed && this.maximumBlue <= allowedBlue;
 	}
 	
+	public int getCubePower() {
+		return this.maximumGreen * this.maximumRed * this.maximumBlue;
+	}
+	
 	public void printCubes() {
 		System.out.println("game " + this.id + ": red: " + this.maximumRed + " blue: " + this.maximumBlue + " green: " + this.maximumGreen);
 	}

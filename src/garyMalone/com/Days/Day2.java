@@ -21,8 +21,16 @@ public class Day2 {
 		return total;
 	}
 	
-	public static void part2(final String[] input) {
+	public static int part2(final String[] input) {
+		int total = 0;
+		for(String str : input) {
+			str = str.trim();
+			CubeGame game = new CubeGame();
+			game.populateCubeGame(str);
+			total += game.getCubePower();
+		}
 		
+		return total;
 	}
 	
 }

@@ -109,7 +109,7 @@ public class Day2Main {
 	
 	public static void main(final String[] args) {
 		System.out.println("Part 1:" + Day2.part1(DAY_TWO_INPUT_SEP));
-		//System.out.println("Part 2: : " + Day1.part2(DAY_TWO_INPUT_SEP));
+		System.out.println("Part 2: " + Day2.part2(DAY_TWO_INPUT_SEP));
 	}
 	
 	
